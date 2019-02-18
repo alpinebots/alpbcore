@@ -1,0 +1,26 @@
+[Unit]
+Description=AlpineBot's distributed currency daemon
+After=network.target
+
+[Service]
+User=alpinebot
+Group=alpinebot
+
+Type=forking
+PIDFile=/var/lib/alpinebotd/alpinebotd.pid
+
+ExecStart=/usr/bin/alpinebotd -daemon -pid=/var/lib/alpinebotd/alpinebotd.pid \
+          -conf=/etc/alpinebot/alpinebot.conf -datadir=/var/lib/alpinebotd
+
+ExecStop=-/usr/bin/alpinebot-cli -conf=/etc/alpinebot/alpinebot.conf \
+         -datadir=/var/lib/alpinebotd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

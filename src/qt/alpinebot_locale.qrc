@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/alpinebot_bg.qm</file>
+        <file alias="ca">locale/alpinebot_ca.qm</file>
+        <file alias="cs">locale/alpinebot_cs.qm</file>
+        <file alias="da">locale/alpinebot_da.qm</file>
+        <file alias="de">locale/alpinebot_de.qm</file>
+        <file alias="en">locale/alpinebot_en.qm</file>
+        <file alias="en_US">locale/alpinebot_en_US.qm</file>
+        <file alias="es">locale/alpinebot_es.qm</file>
+        <file alias="fi">locale/alpinebot_fi.qm</file>
+        <file alias="fr_FR">locale/alpinebot_fr_FR.qm</file>
+        <file alias="hr">locale/alpinebot_hr.qm</file>
+        <file alias="it">locale/alpinebot_it.qm</file>
+        <file alias="ja">locale/alpinebot_ja.qm</file>
+        <file alias="ko_KR">locale/alpinebot_ko_KR.qm</file>
+        <file alias="nl">locale/alpinebot_nl.qm</file>
+        <file alias="pl">locale/alpinebot_pl.qm</file>
+        <file alias="pt">locale/alpinebot_pt.qm</file>
+        <file alias="pt_BR">locale/alpinebot_pt_BR.qm</file>
+        <file alias="ro_RO">locale/alpinebot_ro_RO.qm</file>
+        <file alias="ru">locale/alpinebot_ru.qm</file>
+        <file alias="sk">locale/alpinebot_sk.qm</file>
+        <file alias="sv">locale/alpinebot_sv.qm</file>
+        <file alias="tr">locale/alpinebot_tr.qm</file>
+        <file alias="uk">locale/alpinebot_uk.qm</file>
+        <file alias="zh_CN">locale/alpinebot_zh_CN.qm</file>
+        <file alias="zh_TW">locale/alpinebot_zh_TW.qm</file>
+    </qresource>
+</RCC>

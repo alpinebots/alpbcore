@@ -1,0 +1,26 @@
+# /etc/conf.d/alpinebotd: config file for /etc/init.d/alpinebotd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/alpinebot/alpinebot.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/alpinebotd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/alpinebotd.pid"
+
+# Where to write alpinebotd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/alpinebotd"
+
+# User and group to own alpinebotd process
+#BITCOIND_USER="alpinebot"
+#BITCOIND_GROUP="alpinebot"
+
+# Path to alpinebotd executable
+#BITCOIND_BIN="/usr/bin/alpinebotd"
+
+# Nice value to run alpinebotd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
